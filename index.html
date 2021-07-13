@@ -11,37 +11,101 @@
 	<body class="bg-gray-100">
 		<!-- content wrapper -->
 		<div class="container flex flex-col min-h-screen">
-			<header class="bg-gray-700 py-3">
-				<nav class="text-white flex">
-					<div class="flex-1">
-						<h1 class="text-center pl-8 lg:pl-0">
-							Admin Dashboard
-						</h1>
+			<header class="py-3 bg-gray-700">
+				<nav class="flex flex-col text-white">
+					<div class="flex">
+						<div class="flex-1">
+							<h1 class="pl-8 text-center lg:pl-0">
+								Admin Dashboard
+							</h1>
+						</div>
+						<div class="lg:hidden">
+							<div class="pr-2">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="w-6 h-6"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M4 6h16M4 12h16M4 18h16"
+									/>
+								</svg>
+							</div>
+						</div>
 					</div>
-					<div class="lg:hidden">
-						<div class="pr-2">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								class="h-6 w-6"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M4 6h16M4 12h16M4 18h16"
-								/>
-							</svg>
+					<div class="grid gap-1 pt-3 justify-items-end">
+						<div>
+							<h3 class="flex items-center text-base w-28">
+								<span class="pr-1"
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="w-4 h-4"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+										/></svg
+								></span>
+								Username
+							</h3>
+						</div>
+						<div>
+							<h3 class="flex items-center text-base w-28">
+								<span class="pr-1"
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="w-4 h-4"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+										/></svg
+								></span>
+								Log out
+							</h3>
+						</div>
+						<div>
+							<h3 class="flex items-center text-base w-28">
+								<span class="pr-1"
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="w-4 h-4"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+										/></svg
+								></span>
+								Search
+							</h3>
 						</div>
 					</div>
 				</nav>
 			</header>
-			<main class="flex-1 flex flex-col justify-center items-center">
+			<main class="flex flex-col items-center justify-center flex-1">
 				<h1>Main Content</h1>
 			</main>
-			<footer class="bg-gray-600 text-white py-3 px-1">
+			<footer class="px-1 py-3 text-white bg-gray-600">
 				<p class="text-xs text-center">
 					Copyright &copy; 2021 Towsif Ahmed Omi.
 					<br class="md:hidden" />All rights reserved.
