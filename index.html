@@ -4,23 +4,48 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Admin Page</title>
+		<title>Admin Dashboard</title>
 		<link rel="stylesheet" href="/assets/css/tailwind.css" />
 		<script defer src="/assets/js/main.js"></script>
 	</head>
 	<body class="bg-gray-100">
 		<!-- content wrapper -->
 		<div class="container flex flex-col min-h-screen">
-			<header class="bg-gray-800">
-				<nav class="text-white">
-					<h1>Admin Page</h1>
+			<header class="bg-gray-700 py-3">
+				<nav class="text-white flex">
+					<div class="flex-1">
+						<h1 class="text-center pl-8 lg:pl-0">
+							Admin Dashboard
+						</h1>
+					</div>
+					<div class="lg:hidden">
+						<div class="pr-2">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-6 w-6"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M4 6h16M4 12h16M4 18h16"
+								/>
+							</svg>
+						</div>
+					</div>
 				</nav>
 			</header>
-			<main class="flex-1">
-				<h1>Main</h1>
+			<main class="flex-1 flex flex-col justify-center items-center">
+				<h1>Main Content</h1>
 			</main>
-			<footer class="bg-gray-700 text-white">
-				<h1>Footer</h1>
+			<footer class="bg-gray-600 text-white py-3 px-1">
+				<p class="text-xs text-center">
+					Copyright &copy; 2021 Towsif Ahmed Omi.
+					<br class="md:hidden" />All rights reserved.
+				</p>
 			</footer>
 		</div>
 	</body>
